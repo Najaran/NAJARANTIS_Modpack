@@ -1,0 +1,3 @@
+recipes.remove(<actuallyadditions:block_misc:9>);
+recipes.addShaped(<actuallyadditions:block_misc:9> * 1, [[<minecraft:iron_block>, <actuallyadditions:block_misc:4>, <minecraft:iron_block>], [<minecraft:iron_block>, <actuallyadditions:item_misc:5>, <minecraft:iron_block>],[<minecraft:iron_block>, <actuallyadditions:block_misc:4>, <minecraft:iron_block>]]);
+recipes.addShaped(<actuallyadditions:block_misc:9> * 1, [[<thermalfoundation:material:32>, <actuallyadditions:block_misc:4>, <thermalfoundation:material:32>], [<thermalfoundation:material:32>, <actuallyadditions:item_misc:5>, <thermalfoundation:material:32>],[<thermalfoundation:material:32>, <actuallyadditions:block_misc:4>, <thermalfoundation:material:32>]]);

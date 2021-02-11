@@ -1,0 +1,22 @@
+item.contenttweaker.charged_draconium_ingot.name=Charged Draconium Ingot
+item.contenttweaker.tungsten_dust.name=Tungsten Dust
+item.contenttweaker.tiny_tungsten_dust.name=Tiny Tungsten Dust
+item.contenttweaker.hot_tungsten_ingot.name=Hot Tungsten Ingot
+item.contenttweaker.impure_tungsten_ingot.name=Impure Tungsten Ingot
+item.contenttweaker.dithered_tungsten_ingot.name=Dithered Tungsten Ingot
+item.contenttweaker.tungsten_ingot.name=Tungsten Ingot
+item.contenttweaker.nebula_tungsten_ingot.name=Nebula Tungsten Ingot
+item.contenttweaker.energized_tungsten_ingot.name=Energized Tungsten Ingot
+item.contenttweaker.blessed_tungsten_ingot.name=Elven Blessed Tungsten Ingot
+item.contenttweaker.living_tungsten_ingot.name=Fleshy Tungsten Ingot
+tile.contenttweaker.block_tungsten.name=Block of Tungsten
+tile.contenttweaker.block_blessed_tungsten.name=Block of Elven Blessed Tungsten
+tile.contenttweaker.block_energized_tungsten.name=Block of Energized Tungsten
+tile.contenttweaker.block_living_tungsten.name=Block of Freshy Tungsten
+tile.contenttweaker.block_nebula_tungsten.name=Block of Nebula Tungsten
+item.contenttweaker.densium_ingot.name=Densinium Ingot
+tile.contenttweaker.block_densium.name=Block of Densinium
+item.contenttweaker.chaos_tungsten_ingot.name=Chaos-Tungsten Alloy Ingot
+tile.contenttweaker.block_chaos_tungsten.name=Block of Chaos-W Alloy
+
+entity.chaoticchicken.name=Chaotic Chicken

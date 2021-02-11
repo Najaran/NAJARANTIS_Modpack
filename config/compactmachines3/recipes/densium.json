@@ -1,0 +1,34 @@
+{
+    "name": "compactmachines3:crystalmatrix",
+    "target-item": "contenttweaker:densium_ingot",
+    "target-count": 2,
+
+    "duration": 300,
+
+    "catalyst": "botania:tinyplanetblock",
+
+    "input-types": {
+        "w": {
+            "id": "contenttweaker:block_tungsten"
+        }
+    },
+
+    "symmetrical": true,
+    "shape": [
+        [
+            ["w", "w", "w"],
+            ["w", "w", "w"],
+            ["w", "w", "w"]
+        ],
+        [
+            ["w", "w", "w"],
+            ["w", "w", "w"],
+            ["w", "w", "w"]
+        ],
+        [
+            ["w", "w", "w"],
+            ["w", "w", "w"],
+            ["w", "w", "w"]
+        ]
+    ]
+}

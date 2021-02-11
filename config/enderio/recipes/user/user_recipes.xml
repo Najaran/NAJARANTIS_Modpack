@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+<recipe name="Soul Binder: Fire Dragon Egg" required="true">
+    <soulbinding energy="10000000" levels="50">
+        <input name="item:minecraft:dragon_egg"/>
+        <soul name="iceandfire:firedragon"/>
+        <output name="item:iceandfire:dragonegg_red"/>
+    </soulbinding>
+</recipe>
+<recipe name="Soul Binder: Ice Dragon Egg" required="true">
+    <soulbinding energy="10000000" levels="50">
+        <input name="item:minecraft:dragon_egg"/>
+        <soul name="iceandfire:icedragon"/>
+        <output name="item:iceandfire:dragonegg_blue"/>
+    </soulbinding>
+</recipe>
+</enderio:recipes>
