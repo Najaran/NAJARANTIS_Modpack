@@ -92,7 +92,7 @@
     {
         "mode": "ADD",
         "result": "eternalsingularity:eternal_singularity",
-        "catalyst": "singularities:singularity",
+        "catalyst": "singularities:singularity,1,1",
         "energy": 100000000,
         "tier": 3,
         "ingredients": [
@@ -108,7 +108,8 @@
             "avaritia:singularity,1,9",
             "avaritia:singularity,1,10",
             "avaritia:singularity,1,11",
-            "avaritia:singularity,1,12"
+            "avaritia:singularity,1,12",
+            "singularities:singularity"
         ]
     },
     {
