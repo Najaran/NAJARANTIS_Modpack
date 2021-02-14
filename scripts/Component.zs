@@ -143,9 +143,13 @@ recipes.remove(<environmentaltech:void_ore_miner_cont_5>);
 mods.avaritia.ExtremeCrafting.addShaped("VOM Tier 5", <environmentaltech:void_ore_miner_cont_5> * 1, [[<environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>, <environmentaltech:ionite>], [<environmentaltech:ionite>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_lens:0>, <industrialforegoing:laser_lens:15>, <industrialforegoing:laser_lens:14>, <industrialforegoing:laser_lens:13>, <industrialforegoing:laser_lens:12>, <draconicevolution:draconium_block:1>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <industrialforegoing:laser_base>, <industrialforegoing:laser_lens:1>, <draconicevolution:wyvern_energy_core>, <enderio:block_alloy_endergy:4>, <draconicevolution:wyvern_energy_core>, <industrialforegoing:laser_lens:11>, <industrialforegoing:laser_base>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_lens:2>, <industrialforegoing:laser_drill>, <environmentaltech:void_ore_miner_cont_4>, <industrialforegoing:laser_drill>, <industrialforegoing:laser_lens:10>, <draconicevolution:draconium_block:1>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <industrialforegoing:laser_base>, <industrialforegoing:laser_lens:3>, <draconicevolution:wyvern_energy_core>, <enderio:block_alloy_endergy:4>, <draconicevolution:wyvern_energy_core>, <industrialforegoing:laser_lens:9>, <industrialforegoing:laser_base>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_lens:4>, <industrialforegoing:laser_lens:5>, <industrialforegoing:laser_lens:6>, <industrialforegoing:laser_lens:7>, <industrialforegoing:laser_lens:8>, <draconicevolution:draconium_block:1>, <environmentaltech:ionite>],[<environmentaltech:ionite>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <draconicevolution:draconium_block:1>, <industrialforegoing:laser_base>, <environmentaltech:ionite>],[<environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>, <environmentaltech:interconnect>]]);
 
 # Menril Sapring
-mods.botania.Apothecary.addRecipe(<integrateddynamics:menril_sapling>,
-    [<minecraft:sapling>, <ore:manaDiamond>, <ore:manaDiamond>, <ore:manaDiamond>, <botania:rune:8>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:overgrowthseed>]
+mods.botania.RuneAltar.addRecipe(<integrateddynamics:menril_sapling>,
+    [<minecraft:sapling>, <ore:manaDiamond>, <ore:manaDiamond>, <ore:manaDiamond>, <botania:rune:8>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:corporeaspark>, <botania:overgrowthseed>],
+    5000
 );
+
+# Disable Stone -> End Stone (Using Dimension Catalyst)
+mods.botania.ManaInfusion.removeRecipe(<minecraft:end_stone>);
 
 // Bonsai Pot
 recipes.remove(<bonsaitrees:bonsaipot:0>);
@@ -192,5 +196,13 @@ for item in removeList {
 # Add alternative Silicon production recipe
 
 mods.thermalexpansion.InductionSmelter.addRecipe(<nuclearcraft:gem:6>*5, <minecraft:sand:*>*8, <minecraft:coal>*3, 2000, <thermalfoundation:material:865>, 75);
+
+# Sink
+recipes.remove(<cookingforblockheads:sink>);
+recipes.addShaped(<cookingforblockheads:sink> * 1, [[<thermalfoundation:material:352>, <thermalfoundation:material:352>, <thermalfoundation:material:352>], [<minecraft:hardened_clay>, <enderio:block_reservoir>, <minecraft:hardened_clay>],[<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]]);
+
+# Creative Watering Can
+recipes.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [[null, <botania:overgrowthseed>, null], [<thermalcultivation:watering_can:4>, <cookingforblockheads:sink>, <thermalcultivation:watering_can:4>],[<botania:overgrowthseed>, <botania:storage:2>, <botania:overgrowthseed>]]);
+
 
 # Tooltips
