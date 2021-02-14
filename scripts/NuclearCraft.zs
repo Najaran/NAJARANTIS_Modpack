@@ -18,3 +18,8 @@ recipes.addShaped(<nuclearcraft:cell_block> * 1, [[<nuclearcraft:alloy:12>, <nuc
 // Fission Controller
 recipes.remove(<nuclearcraft:fission_controller_new_fixed>);
 recipes.addShaped(<nuclearcraft:fission_controller_new_fixed> * 1, [[<nuclearcraft:part:1>, <nuclearcraft:part:5>, <nuclearcraft:part:1>], [<nuclearcraft:cell_block>, <draconicevolution:wyvern_core>, <nuclearcraft:cell_block>],[<nuclearcraft:part:1>, <nuclearcraft:part:5>, <nuclearcraft:part:1>]]);
+
+# - NuclearCraftのManufactoryからシリコンを簡単に作るレシピを削除。代わりに、合金炉で砂と石炭から作るレシピを実装。
+
+mods.nuclearcraft.manufactory.removeRecipeWithInput([<ore:sand>]);
+mods.nuclearcraft.alloy_furnace.addRecipe([<ore:sand>*8, <ore:coal>*3, <nuclearcraft:gem:6>*6, 0.75]);

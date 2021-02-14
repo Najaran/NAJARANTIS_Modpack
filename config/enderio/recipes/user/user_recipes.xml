@@ -14,4 +14,12 @@
         <output name="item:iceandfire:dragonegg_blue"/>
     </soulbinding>
 </recipe>
+<recipe name="Sagmill: Silicon" disabled="true" />
+<recipe name="Alloy : Silicon refinement" required="true">
+    <alloying energy="3000" exp="0.5">
+        <input name="oredict:sand" amount="8"/>
+        <input name="oredict:coal" amount="3"/>
+        <output name="nuclearcraft:gem:6" amount="6"/>
+    </alloying>
+</recipe>
 </enderio:recipes>
