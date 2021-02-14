@@ -30,19 +30,85 @@
             "x": 0,
             "y": 0,
             "z": 2,
-            "description": "RF/t x8, Chance x2",
+            "description": "RF/t x16, Chance x2",
             "modifier": [
                 {
                     "target": "energy",
                     "io": "input",
                     "operation": 1,
-                    "multiplier": 8.0
+                    "multiplier": 16.0
                 },
                 {
                     "target": "item",
                     "io": "output",
                     "operation": 1,
                     "multiplier": 2,
+                    "affectChance": true
+                }
+            ]
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@5",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "RF/t x64, Chance x2.5",
+            "modifier": [
+                {
+                    "target": "energy",
+                    "io": "input",
+                    "operation": 1,
+                    "multiplier": 64.0
+                },
+                {
+                    "target": "item",
+                    "io": "output",
+                    "operation": 1,
+                    "multiplier": 2.5,
+                    "affectChance": true
+                }
+            ]
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@6",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "RF/t x256, Chance x3.0",
+            "modifier": [
+                {
+                    "target": "energy",
+                    "io": "input",
+                    "operation": 1,
+                    "multiplier": 256.0
+                },
+                {
+                    "target": "item",
+                    "io": "output",
+                    "operation": 1,
+                    "multiplier": 3.0,
+                    "affectChance": true
+                }
+            ]
+        },
+        {
+            "elements": "modularmachinery:blockenergyinputhatch@7",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "description": "RF/t x1024, Chance x3.5",
+            "modifier": [
+                {
+                    "target": "energy",
+                    "io": "input",
+                    "operation": 1,
+                    "multiplier": 1024.0
+                },
+                {
+                    "target": "item",
+                    "io": "output",
+                    "operation": 1,
+                    "multiplier": 3.0,
                     "affectChance": true
                 }
             ]

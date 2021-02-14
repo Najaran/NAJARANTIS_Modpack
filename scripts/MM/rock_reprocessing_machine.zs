@@ -24,3 +24,25 @@ neth.addItemOutput(<minecraft:glowstone_dust>).setChance(0.10);
 neth.addItemOutput(<minecraft:gold_nugget>).setChance(0.05);
 neth.addItemOutput(<enderio:item_alloy_nugget:1>).setChance(0.05);
 neth.build();
+
+val stone = mods.modularmachinery.RecipeBuilder.newBuilder("Stone_processing", machineName, 300, 1);
+
+stone.addEnergyPerTickInput(250);
+stone.addItemInput(<ore:stone>, 4);
+stone.addItemOutput(<minecraft:sand>).setChance(0.8);
+stone.addItemOutput(<minecraft:gravel>).setChance(0.3);
+stone.addItemOutput(<minecraft:flint>).setChance(0.1);
+stone.addItemOutput(<minecraft:clay_ball>).setChance(0.05);
+stone.build();
+
+val grav = mods.modularmachinery.RecipeBuilder.newBuilder("Gravel_processing", machineName, 500, 1);
+
+grav.addEnergyPerTickInput(500);
+grav.addItemInput(<ore:gravel>, 4);
+grav.addItemOutput(<minecraft:iron_nugget>).setChance(0.05);
+grav.addItemOutput(<thermalfoundation:material:192>).setChance(0.05);
+grav.addItemOutput(<thermalfoundation:material:193>).setChance(0.05);
+grav.addItemOutput(<thermalfoundation:material:194>).setChance(0.02);
+grav.addItemOutput(<minecraft:gold_nugget>).setChance(0.02);
+grav.addItemOutput(<thermalfoundation:material:197>).setChance(0.02);
+grav.build();
