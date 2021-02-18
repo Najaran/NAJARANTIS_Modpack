@@ -3,7 +3,7 @@
 recipes.remove(<enderio:item_material:0>);
 recipes.addShaped(<enderio:item_material:0> * 1, [
     [<thermalfoundation:material:352>, <contenttweaker:tungsten_ingot>, <thermalfoundation:material:352>],
-    [<thermalfoundation:glass:3>, <enderio:item_basic_capacitor:0>, <thermalfoundation:glass:3>],
+    [<thermalfoundation:glass:3>, <enderio:item_basic_capacitor:0> | <enderio:item_capacitor_silver>, <thermalfoundation:glass:3>],
     [<thermalfoundation:material:352>, <thermalfoundation:material:167>, <thermalfoundation:material:352>]
 ]);
 
