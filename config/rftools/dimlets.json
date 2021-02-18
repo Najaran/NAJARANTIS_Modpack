@@ -1,4 +1,79 @@
 [
+  {
+    "filter": {
+      "mod": "thermalfoundation",
+      "name": "ore*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 8000,
+      "maintain": 1400,
+      "ticks": 300,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "thermalfoundation",
+      "name": "storage*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 8000,
+      "ticks": 2000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "nuclearcraft",
+      "name": "ore*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 4,
+      "create": 8000,
+      "maintain": 1400,
+      "ticks": 300,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "nuclearcraft",
+      "name": "ingot_block*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 8000,
+      "ticks": 2000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
+  {
+    "filter": {
+      "mod": "redstonearsenal",
+      "name": "storage*",
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 8000,
+      "ticks": 2000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
   "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {
