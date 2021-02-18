@@ -32,7 +32,13 @@
   {
     "filter": {
       "mod": "nuclearcraft",
-      "name": "ore*",
+      "name": [
+        "oreuranium",
+        "orelithium",
+        "oreboron",
+        "orethorium",
+        "oremagnesium"
+      ],
       "type": "material"
     },
     "settings": {
@@ -47,7 +53,13 @@
   {
     "filter": {
       "mod": "nuclearcraft",
-      "name": "ingot_block*",
+      "name": [
+        "blockboron",
+        "blockmagnesium",
+        "blockthorium",
+        "blocklithium",
+        "blockuranium"
+      ],
       "type": "material"
     },
     "settings": {
