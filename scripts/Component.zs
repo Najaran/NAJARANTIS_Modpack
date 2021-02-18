@@ -204,5 +204,8 @@ recipes.addShaped(<cookingforblockheads:sink> * 1, [[<thermalfoundation:material
 # Creative Watering Can
 recipes.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [[null, <botania:overgrowthseed>, null], [<thermalcultivation:watering_can:4>, <cookingforblockheads:sink>, <thermalcultivation:watering_can:4>],[<botania:overgrowthseed>, <botania:storage:2>, <botania:overgrowthseed>]]);
 
+# Nerf Waxes burn time (1/4, wax=800, waxblock=8000)
+furnace.setFuel(<harvestcraft:beeswaxitem>, 200);
+furnace.setFuel(<harvestcraft:pressedwax>, 2000);
 
 # Tooltips
