@@ -220,7 +220,7 @@ val vivid_a = mods.modularmachinery.RecipeBuilder.newBuilder("vivid_product_alt"
 
 vivid_a.addEnergyPerTickInput(5120);
 vivid_a.addItemInput(<ore:ingotEnergeticSilver>, 2);
-vivid_a.addItemInput(<minecraft:ender_pearl>);
+vivid_a.addItemInput(<thermalfoundation:material:895>);
 vivid_a.addItemOutput(<enderio:item_alloy_endergy_ingot:6>*2);
 vivid_a.build();
 
