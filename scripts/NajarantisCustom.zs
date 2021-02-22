@@ -6,7 +6,10 @@ mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:dithered_tungsten
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:tungsten_ingot>, <contenttweaker:dithered_tungsten_ingot>, <liquid:aerotheum> * 500, 250000);
 
 # 派生タングステン
-mods.botania.ElvenTrade.addRecipe([<contenttweaker:blessed_tungsten_ingot>, <botania:manaringgreater>.withTag({mana: 0})], [<contenttweaker:tungsten_ingot>, <botania:manaresource:5>*4, <botania:manaringgreater>.withTag({mana: 2000000})]);
+mods.botania.ElvenTrade.addRecipe(
+    [<contenttweaker:blessed_tungsten_ingot>, <botania:manaringgreater>.withTag({mana: 0})],
+    [<contenttweaker:tungsten_ingot>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaringgreater>.withTag({mana: 2000000})]
+);
 mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:living_tungsten_ingot>, <contenttweaker:tungsten_ingot>, 4, 45000, 150, 0);
 val CC = <astralsorcery:itemcelestialcrystal>;
 val RG = <astralsorcery:itemcraftingcomponent:4>;
@@ -29,6 +32,10 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("", <contenttweaker:nebula_tungsten
     ],
     "astralsorcery.constellation.ulteria"
 );
+recipes.addShaped(<contenttweaker:unrefined_tungsten_bloom> * 1, [[null, <contenttweaker:tiny_tungsten_dust>, null], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[null, <contenttweaker:tiny_tungsten_dust>, null]]);
+mods.iceandfire.recipes.addFireDragonForgeRecipe(<contenttweaker:unrefined_tungsten_bloom>, <iceandfire:fire_dragon_blood>, <contenttweaker:incandescent_solid_tungsten_ingot>);
+mods.iceandfire.recipes.addIceDragonForgeRecipe(<contenttweaker:incandescent_solid_tungsten_ingot>, <iceandfire:ice_dragon_blood>, <contenttweaker:solid_tungsten_ingot>);
+mods.extrabotany.Pedestal.add(<contenttweaker:tungsten_ingot>*2, <contenttweaker:solid_tungsten_ingot>);
 
 # インゴット⇔ブロック
 val ING_CD = <contenttweaker:charged_draconium_ingot>;
