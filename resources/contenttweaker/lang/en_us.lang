@@ -18,5 +18,8 @@ item.contenttweaker.densium_ingot.name=Densinium Ingot
 tile.contenttweaker.block_densium.name=Block of Densinium
 item.contenttweaker.chaos_tungsten_ingot.name=Chaos-Tungsten Alloy Ingot
 tile.contenttweaker.block_chaos_tungsten.name=Block of Chaos-W Alloy
+item.contenttweaker.unrefined_tungsten_bloom.name=Unrefined Tungsten Chunk
+item.contenttweaker.incandescent_solid_tungsten_ingot.name=Incandescent Solid Tungsten Ingot
+item.contenttweaker.solid_tungsten_ingot.name=Solid Tungsten Ingot
 
 entity.chaoticchicken.name=Chaotic Chicken
