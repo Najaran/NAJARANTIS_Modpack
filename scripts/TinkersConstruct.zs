@@ -2,6 +2,7 @@
 
 furnace.remove(<tconstruct:materials>);
 mods.thermalexpansion.InductionSmelter.addRecipe(<tconstruct:materials>, <tconstruct:soil>, <minecraft:coal:*>*4, 2400);
+mods.thermalexpansion.InductionSmelter.addRecipe(<tconstruct:materials>, <minecraft:coal:*>*4, <tconstruct:soil>, 2400);
 
 mods.tconstruct.Casting.removeTableRecipe(<tconstruct:cast_custom:4>);
 
