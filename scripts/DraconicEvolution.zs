@@ -1,3 +1,12 @@
+# Charging Draconium Ingot
+
+mods.actuallyadditions.Empowerer.addRecipe(
+    <contenttweaker:charged_draconium_ingot>*4,
+    <botania:manaresource:9>,
+    <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>,
+    1000, 1200, [0.63, 0.37, 74.9]
+);
+
 # インジェクタのレシピ変更
 
 recipes.remove(<draconicevolution:crafting_injector:0>);
@@ -53,7 +62,7 @@ mods.avaritia.ExtremeCrafting.addShaped("Wyvern Axe", waxe, [[null, null, null, 
 
 // Pickaxe of the Wyvern
 recipes.remove(<draconicevolution:wyvern_pick>);
-mods.avaritia.ExtremeCrafting.addShaped("Wyvern Pickaxe", wpic, [[null, null, null, null, <draconicevolution:wyvern_core>, null, null, null, null], [null, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <contenttweaker:block_tungsten:0>, <botanicadds:gaiasteel_block>, <contenttweaker:block_tungsten:0>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, null],[<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <iceandfire:dragonsteel_fire_pickaxe>, <minecraft:dragon_egg>, <tconstruct:pickaxe>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>],[<draconicevolution:draconium_block:1>, null, null, <contenttweaker:block_tungsten:0>, <iceandfire:dragon_bone_block>, <contenttweaker:block_tungsten:0>, null, null, <draconicevolution:draconium_block:1>],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <draconicevolution:wyvern_energy_core>, null, null, null, null]]);
+mods.avaritia.ExtremeCrafting.addShaped("Wyvern Pickaxe", wpic, [[null, null, null, null, <draconicevolution:wyvern_core>, null, null, null, null], [null, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <contenttweaker:block_tungsten:0>, <botanicadds:gaiasteel_block>, <contenttweaker:block_tungsten:0>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, null],[<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <iceandfire:dragonsteel_fire_pickaxe>, <minecraft:dragon_egg>, <iceandfire:dragonsteel_ice_pickaxe>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>, <draconicevolution:draconium_block:1>],[<draconicevolution:draconium_block:1>, null, null, <contenttweaker:block_tungsten:0>, <iceandfire:dragon_bone_block>, <contenttweaker:block_tungsten:0>, null, null, <draconicevolution:draconium_block:1>],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <iceandfire:dragon_bone_block>, null, null, null, null],[null, null, null, null, <draconicevolution:wyvern_energy_core>, null, null, null, null]]);
 
 // Wyvern Helm
 recipes.remove(<draconicevolution:wyvern_helm>);

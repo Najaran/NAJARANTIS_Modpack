@@ -1,3 +1,21 @@
+import crafttweaker.item.IItemStack;
+
+val removeList = [
+    <modularmachinery:itemmodularium>,
+    <modularmachinery:blockinputbus>,
+    <modularmachinery:blockoutputbus>,
+    <modularmachinery:blockinputbus:1>,
+    <modularmachinery:blockoutputbus:1>,
+    <modularmachinery:blockfluidinputhatch:*>,
+    <modularmachinery:blockfluidoutputhatch:*>,
+    <modularmachinery:blockenergyoutputhatch:*>
+] as IItemStack[];
+
+for item in removeList {
+    recipes.remove(item);
+    mods.jei.JEI.hide(item);
+}
+
 // Machine Casing
 recipes.remove(<modularmachinery:blockcasing:0>);
 recipes.addShaped(<modularmachinery:blockcasing:0> * 1, [[<thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>], [<thermalfoundation:glass:3>, null, <thermalfoundation:glass:3>],[<thermalfoundation:material:357>, <thermalfoundation:material:357>, <thermalfoundation:material:357>]]);
