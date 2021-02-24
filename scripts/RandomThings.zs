@@ -11,5 +11,5 @@ recipes.remove(<randomthings:ingredient:12>);
 recipes.addShaped(<randomthings:ingredient:12> * 4, [[<randomthings:ingredient:2>, <botania:manaresource:12>, <randomthings:ingredient:2>], [<botania:manaresource:12>, <botania:manaresource:9>, <botania:manaresource:12>],[<randomthings:ingredient:2>, <botania:manaresource:12>, <randomthings:ingredient:2>]]);
 
 // Spectre Anchor
-recipes.remove(<randomthings:spectreanchor>);
-recipes.addShaped(<randomthings:spectreanchor> * 1, [[null, <randomthings:ingredient:12>, null], [<contenttweaker:tungsten_ingot>, <randomthings:ingredient:3>, <contenttweaker:tungsten_ingot>],[<contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>]]);
+//recipes.remove(<randomthings:spectreanchor>);
+//recipes.addShaped(<randomthings:spectreanchor> * 1, [[null, <randomthings:ingredient:12>, null], [<contenttweaker:tungsten_ingot>, <randomthings:ingredient:3>, <contenttweaker:tungsten_ingot>],[<contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>]]);
