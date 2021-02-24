@@ -8,3 +8,6 @@ recipes.addShaped(<thermalexpansion:frame:0> * 1, [[<minecraft:iron_block>, <min
 
 recipes.remove(<thermalexpansion:augment:337>);
 recipes.addShaped(<thermalexpansion:augment:337> * 1, [[<thermalfoundation:material:512>, <actuallyadditions:item_misc:8>, <thermalfoundation:material:512>], [<thermalfoundation:material:288>, <minecraft:piston>, <thermalfoundation:material:288>],[<thermalfoundation:material:324>, <thermalfoundation:material:324>, <thermalfoundation:material:324>]]);
+
+# SoulBound本のレシピを削除
+mods.thermalexpansion.Enchanter.removeRecipe(<minecraft:book>, <minecraft:soul_sand>);

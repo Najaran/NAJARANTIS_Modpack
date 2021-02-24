@@ -499,6 +499,16 @@
       "target": "black",
       "weight": 8,
       "id": "contenttweaker:tiny_tungsten_dust"
+    },
+    {
+      "target": "light_blue",
+      "weight": 187,
+      "id": "OD:oreCertusQuartz"
+    },
+    {
+      "target": "light_blue",
+      "weight": 109,
+      "id": "OD:oreChargedCertusQuartz"
     }
   ]
 }

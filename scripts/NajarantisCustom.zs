@@ -30,7 +30,7 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("", <contenttweaker:nebula_tungsten
         <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.aevitas"}}),
         <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {starAttunement: "astralsorcery.constellation.evorsio"}})
     ],
-    "astralsorcery.constellation.ulteria"
+    "astralsorcery.constellation.pelotrio"
 );
 recipes.addShaped(<contenttweaker:unrefined_tungsten_bloom> * 1, [[null, <contenttweaker:tiny_tungsten_dust>, null], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[null, <contenttweaker:tiny_tungsten_dust>, null]]);
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<contenttweaker:unrefined_tungsten_bloom>, <iceandfire:fire_dragon_blood>, <contenttweaker:incandescent_solid_tungsten_ingot>);

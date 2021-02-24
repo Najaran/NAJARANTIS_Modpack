@@ -19,3 +19,22 @@ recipes.addShapeless(<storagedrawers:upgrade_creative:1>*2, [<storagedrawers:upg
 
 # Creative Watering Can
 recipes.addShaped(<thermalcultivation:watering_can:32000>.withTag({Water: 60000, Mode: 4}), [[null, <botania:overgrowthseed>, null], [<thermalcultivation:watering_can:4>, <cookingforblockheads:sink>, <thermalcultivation:watering_can:4>],[<botania:overgrowthseed>, <botania:storage:2>, <botania:overgrowthseed>]]);
+
+# Creative Modifier
+val bac = <tconstruct:edible>;
+val mos = <tconstruct:materials:19>;
+val ovg = <botania:overgrowthseed>;
+val alu = <tconstruct:metal:5>;
+val pig = <tconstruct:metal:4>;
+val kni = <tconstruct:metal:3>;
+mods.astralsorcery.Altar.addTraitAltarRecipe("", <tconstruct:materials:50>,
+    80, 800,
+    [
+        bac, mos, bac,
+        mos, ovg, mos,
+        bac, mos, bac,
+        alu, alu, alu, alu,
+        pig, pig, pig, pig, pig, pig, pig, pig,
+        kni, kni, kni, kni,
+    ]
+);
