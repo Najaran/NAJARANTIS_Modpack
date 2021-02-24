@@ -1,3 +1,12 @@
+# Charging Draconium Ingot
+
+mods.actuallyadditions.Empowerer.addRecipe(
+    <contenttweaker:charged_draconium_ingot>*4,
+    <botania:manaresource:9>,
+    <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>, <draconicevolution:draconium_ingot>,
+    1000, 1200, [0.63, 0.37, 74.9]
+);
+
 # インジェクタのレシピ変更
 
 recipes.remove(<draconicevolution:crafting_injector:0>);

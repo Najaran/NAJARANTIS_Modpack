@@ -131,3 +131,21 @@ itj.setWitherProof(true);
 itj.setUnlocalizedName("block_chaos_tungsten");
 itj.setToolLevel("4");
 itj.register();
+
+var itk = VanillaFactory.createItem("unrefined_tungsten_bloom");
+itk.maxStackSize = 64;
+itk.rarity = "UNCOMMON";
+itk.unlocalizedName = "unrefined_tungsten_bloom";
+itk.register();
+
+var itl = VanillaFactory.createItem("incandescent_solid_tungsten_ingot");
+itl.maxStackSize = 64;
+itl.rarity = "UNCOMMON";
+itl.unlocalizedName = "incandescent_solid_tungsten_ingot";
+itl.register();
+
+var itm = VanillaFactory.createItem("solid_tungsten_ingot");
+itm.maxStackSize = 64;
+itm.rarity = "UNCOMMON";
+itm.unlocalizedName = "solid_tungsten_ingot";
+itm.register();
