@@ -54,3 +54,6 @@ recipes.addShaped(<appliedenergistics2:part:16> * 6, [[<integratedterminals:chor
 
 // ME Terminal
 recipes.addShaped(<appliedenergistics2:part:380> * 1, [[<integrateddynamics:crystalized_chorus_chunk>, <integratedterminals:chorus_glass>, <integrateddynamics:crystalized_chorus_chunk>], [<appliedenergistics2:part:180>, <integratedterminals:part_terminal_storage_item>, <appliedenergistics2:part:16>],[<integrateddynamics:crystalized_chorus_chunk>, <integratedterminals:chorus_glass>, <integrateddynamics:crystalized_chorus_chunk>]]);
+
+// Engineering Processor
+recipes.addShaped(<appliedenergistics2:material:24> * 1, [[<integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>, <integrateddynamics:crystalized_menril_chunk>], [<enderio:item_alloy_ingot:3>, <enderio:item_material:14>, <enderio:item_alloy_ingot:3>],[<nuclearcraft:gem:6>, <nuclearcraft:gem:6>, <nuclearcraft:gem:6>]]);
