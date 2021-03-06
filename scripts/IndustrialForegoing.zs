@@ -21,3 +21,7 @@ for item in removeList {
     recipes.remove(item);
     mods.jei.JEI.hide(item);
 }
+
+# Replace Petrified Fuel Generator recipes
+recipes.remove(<industrialforegoing:petrified_fuel_generator>);
+recipes.addShaped(<industrialforegoing:petrified_fuel_generator> * 1, [[<industrialforegoing:pink_slime_ingot>, <industrialforegoing:plastic>, <industrialforegoing:pink_slime_ingot>], [<redstonerepository:material:3>, <teslacorelib:machine_case>, <redstonerepository:material:3>],[<industrialforegoing:plastic>, <actuallyadditions:block_coal_generator>, <industrialforegoing:plastic>]]);
