@@ -1,3 +1,10 @@
+# タングステンに鉱石辞書を追加する
+val oreDictIngotTungsten = <ore:ingotTungsten>;
+val oreDictBlockTungsten = <ore:blockTungsten>;
+
+oreDictIngotTungsten.add(<contenttweaker:tungsten_ingot>);
+oreDictBlockTungsten.add(<contenttweaker:block_tungsten>);
+
 # タングステン加工系
 recipes.addShaped(<contenttweaker:tungsten_dust>, [[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>]]);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:hot_tungsten_ingot>, <contenttweaker:tungsten_dust>, <liquid:pyrotheum> * 500, 150000);
