@@ -519,6 +519,16 @@
       "target": "black",
       "weight": 15,
       "id": "contenttweaker:tiny_tungsten_dust"
+    },
+    {
+      "target": "black",
+      "weight": 12,
+      "id": "contenttweaker:tungsten_dust"
+    },
+    {
+      "target": "black",
+      "weight": 10,
+      "id": "contenttweaker:unrefined_tungsten_bloom"
     }
   ]
 }
