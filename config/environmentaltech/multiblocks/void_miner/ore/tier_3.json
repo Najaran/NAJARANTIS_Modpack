@@ -501,6 +501,11 @@
       "id": "contenttweaker:tiny_tungsten_dust"
     },
     {
+      "target": "black",
+      "weight": 6,
+      "id": "contenttweaker:tungsten_dust"
+    },
+    {
       "target": "light_blue",
       "weight": 187,
       "id": "OD:oreCertusQuartz"
