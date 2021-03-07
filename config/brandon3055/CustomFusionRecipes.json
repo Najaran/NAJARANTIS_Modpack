@@ -213,5 +213,32 @@
             "contenttweaker:energized_tungsten_ingot",
             "contenttweaker:energized_tungsten_ingot"
         ]
+    },
+    {
+        "mode": "ADD",
+        "result": "forge:bucketfilled,1,0,{FluidName:infinity,Amount: 1000}",
+        "catalyst": "forge:bucketfilled,1,0,{FluidName:neutron,Amount: 1000}",
+        "energy": 100000000000,
+        "tier": 3,
+        "ingredients": [
+            "avaritia:block_resource,1,1",
+            "avaritia:block_resource,1,1",
+            "avaritiatweaks:enhancement_crystal",
+            "avaritiatweaks:enhancement_crystal",
+            "enderio:block_infinity,1,2",
+            "enderio:block_infinity,1,2",
+            "draconicadditions:chaotic_energy_core",
+            "draconicadditions:chaotic_energy_core",
+            "notenoughrtgs:rtg_californium_dense",
+            "notenoughrtgs:rtg_californium_dense",
+            "bloodmagic:item_demon_crystal,64,1",
+            "bloodmagic:item_demon_crystal,64,2",
+            "bloodmagic:item_demon_crystal,64,3",
+            "bloodmagic:item_demon_crystal,64,4",
+            "extrabotany:material,1,1",
+            "extrabotany:material,1,1",
+            "astralsorcery:itemperkgem,1,1",
+            "astralsorcery:itemperkgem,1,1"
+        ]
     }
 ]
