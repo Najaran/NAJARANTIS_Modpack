@@ -89,7 +89,8 @@
   {
     "filter": {
       "mod": "draconicevolution",
-      "name": "blockdraconium",
+      "name": "draconium_block",
+      "meta": 0,
       "type": "material"
     },
     "settings": {
