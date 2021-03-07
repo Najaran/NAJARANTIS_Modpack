@@ -86,6 +86,22 @@
       "dimlet": true
     }
   },
+  {
+    "filter": {
+      "mod": "draconicevolution",
+      "name": "draconium_block",
+      "meta": 0,
+      "type": "material"
+    },
+    "settings": {
+      "rarity": 5,
+      "create": 40000,
+      "maintain": 24000,
+      "ticks": 8000,
+      "worldgen": true,
+      "dimlet": true
+    }
+  },
   "Everything below this line will be regenerated from defaults every time. Remove this line if you do not want that",
   {
     "filter": {
