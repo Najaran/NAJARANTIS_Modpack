@@ -17,16 +17,18 @@ mods.botania.ElvenTrade.addRecipe(
     [<contenttweaker:blessed_tungsten_ingot>, <botania:manaringgreater>.withTag({mana: 0})],
     [<contenttweaker:tungsten_ingot>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaresource:5>, <botania:manaringgreater>.withTag({mana: 2000000})]
 );
-mods.bloodmagic.BloodAltar.addRecipe(<contenttweaker:living_tungsten_ingot>, <contenttweaker:tungsten_ingot>, 4, 45000, 150, 0);
+mods.bloodmagic.AlchemyTable.addRecipe(<contenttweaker:living_tungsten_ingot>*4,
+    [<contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>, <contenttweaker:tungsten_ingot>, <bloodmagic:points_upgrade>, <bloodmagic:component:18>],
+    1500000, 200, 4);
 val CC = <astralsorcery:itemcelestialcrystal>;
 val RG = <astralsorcery:itemcraftingcomponent:4>;
 val SS = <astralsorcery:itemcraftingcomponent:2>;
 val SM = <astralsorcery:itemcraftingcomponent:1>;
-mods.astralsorcery.Altar.addTraitAltarRecipe("", <contenttweaker:nebula_tungsten_ingot>,
+mods.astralsorcery.Altar.addTraitAltarRecipe("", <contenttweaker:block_nebula_tungsten>,
     95, 1200,
     [
         CC, RG, CC,
-        RG, <contenttweaker:tungsten_ingot>, RG,
+        RG, <contenttweaker:block_tungsten>, RG,
         CC, RG, CC,
         null, null, null, null,
         SS, SS, SM, SM, SM, SM, SS, SS,
