@@ -168,8 +168,8 @@ recipes.addShaped(<thermalfoundation:material:293>, [
 ]);
 
 # --- Lumium
-recipes.remove(<thermalfoundation:material:293>);
-recipes.addShaped(<thermalfoundation:material:293>, [
+recipes.remove(<thermalfoundation:material:294>);
+recipes.addShaped(<thermalfoundation:material:294>, [
     [null, <ore:ingotLumium>, null],
     [<ore:ingotLumium>, <ore:blockLumium>, <ore:ingotLumium>],
     [null, <ore:ingotLumium>, null]
