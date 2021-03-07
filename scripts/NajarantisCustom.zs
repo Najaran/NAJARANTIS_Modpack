@@ -7,7 +7,7 @@ oreDictBlockTungsten.add(<contenttweaker:block_tungsten>);
 
 # タングステン加工系
 recipes.addShaped(<contenttweaker:tungsten_dust>, [[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>]]);
-recipes.addShapeless(<contenttweaker:tiny_tungsten_dust>*9, [<contenttweaker:unrefined_tungsten_bloom>]);
+recipes.addShapeless(<contenttweaker:tiny_tungsten_dust>*9, [<contenttweaker:tungsten_dust>]);
 
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:hot_tungsten_ingot>, <contenttweaker:tungsten_dust>, <liquid:pyrotheum> * 500, 150000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:impure_tungsten_ingot>, <contenttweaker:hot_tungsten_ingot>, <liquid:cryotheum> * 500, 150000);
