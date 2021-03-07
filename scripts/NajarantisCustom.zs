@@ -7,6 +7,8 @@ oreDictBlockTungsten.add(<contenttweaker:block_tungsten>);
 
 # タングステン加工系
 recipes.addShaped(<contenttweaker:tungsten_dust>, [[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>, <contenttweaker:tiny_tungsten_dust>]]);
+recipes.addShapeless(<contenttweaker:tiny_tungsten_dust>*9, [<contenttweaker:tungsten_dust>]);
+
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:hot_tungsten_ingot>, <contenttweaker:tungsten_dust>, <liquid:pyrotheum> * 500, 150000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:impure_tungsten_ingot>, <contenttweaker:hot_tungsten_ingot>, <liquid:cryotheum> * 500, 150000);
 mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:dithered_tungsten_ingot>, <contenttweaker:impure_tungsten_ingot>, <liquid:petrotheum> * 500, 150000);
@@ -42,9 +44,10 @@ mods.astralsorcery.Altar.addTraitAltarRecipe("", <contenttweaker:block_nebula_tu
     "astralsorcery.constellation.pelotrio"
 );
 recipes.addShaped(<contenttweaker:unrefined_tungsten_bloom> * 1, [[null, <contenttweaker:tiny_tungsten_dust>, null], [<contenttweaker:tiny_tungsten_dust>, <contenttweaker:tungsten_dust>, <contenttweaker:tiny_tungsten_dust>],[null, <contenttweaker:tiny_tungsten_dust>, null]]);
+recipes.addShapeless(<contenttweaker:tiny_tungsten_dust>*13, [<contenttweaker:unrefined_tungsten_bloom>]);
 mods.iceandfire.recipes.addFireDragonForgeRecipe(<contenttweaker:unrefined_tungsten_bloom>, <iceandfire:fire_dragon_blood>, <contenttweaker:incandescent_solid_tungsten_ingot>);
 mods.iceandfire.recipes.addIceDragonForgeRecipe(<contenttweaker:incandescent_solid_tungsten_ingot>, <iceandfire:ice_dragon_blood>, <contenttweaker:solid_tungsten_ingot>);
-mods.extrabotany.Pedestal.add(<contenttweaker:tungsten_ingot>*2, <contenttweaker:solid_tungsten_ingot>);
+mods.extrabotany.Pedestal.add(<contenttweaker:tungsten_ingot>*3, <contenttweaker:solid_tungsten_ingot>);
 
 # インゴット⇔ブロック
 val ING_CD = <contenttweaker:charged_draconium_ingot>;
