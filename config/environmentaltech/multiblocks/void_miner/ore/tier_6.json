@@ -521,6 +521,16 @@
       "id": "contenttweaker:tiny_tungsten_dust"
     },
     {
+      "target": "black",
+      "weight": 22,
+      "id": "contenttweaker:tungsten_dust"
+    },
+    {
+      "target": "black",
+      "weight": 18,
+      "id": "contenttweaker:unrefined_tungsten_bloom"
+    },
+    {
       "target": "gray",
       "weight": 9,
       "id": "avaritia:resource:2"
