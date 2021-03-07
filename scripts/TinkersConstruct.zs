@@ -19,3 +19,7 @@ mods.tconstruct.Melting.removeRecipe(<liquid:coal>);
 
 recipes.remove(<tconstruct:rack>);
 mods.jei.JEI.hide(<tconstruct:rack>.withTag({textureBlock: {id: "minecraft:wooden_slab", Count: 1 as byte, Damage: 0 as short}}));
+
+# - InfinityIngotを乾式製錬炉で溶かせないように変更する
+
+mods.tconstruct.Melting.removeRecipe(<liquid:infinity>);
